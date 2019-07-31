@@ -1,0 +1,142 @@
+body {
+  font: 14px "Courier New", Courier, monospace;
+  background-color: #272822;
+  color: whitesmoke;
+  margin:0; /*gets rid of white space around body*/
+  margin-top:16px;
+  height:130vh; /*you can let your content define it's height*/
+  position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
+
+.footer{
+  width:100%;
+  height:44px;
+  padding-top:20px;
+  background:#272822;
+  color:white;
+  font-weight:bold;
+  font-size:24px;
+  text-align:center;
+  position:absolute; /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body/page*/
+  left:0;            /*and to the left of the body/page.*/
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+h4 {
+  text-align: center;
+  color: whitesmoke;
+}
+h5 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+h6 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+button {
+  background-color: darkred;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#editor {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 600px;
+  width: 600px;
+}
+
+#reflection {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 600px;
+  width: 600px;
+}
+
+#mainPane {
+  display: flex;
+}
+
+#bottom {
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.header {
+  text-align: center;
+  color: whitesmoke;
+}
+
+#clock {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.waves-effect {
+  background-color: darkred;
+  color: whitesmoke;
+}
+
+.btn {
+    background-color: darkred;
+  color: whitesmoke;
+}
+
+#button1 {
+  text-align: center;
+}
+#button2 {
+  text-align: center;
+  background-color: #e6b800;
+}
+#button3 {
+  text-align: center;
+}
+#button4 {
+  text-align: center;
+}
+
+#fore {
+    
+    border: 5px solid;
+    border-color: inherit;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#middle {
+    text-align: center;
+}
+#fancy {
+    border: 3px solid white;
+    border-radius: 6px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 3px 3px 3px orange;
+    text-align: center;
+}
